@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<title> ddu-gky </title>
+
+	<link href="style12.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="menusm.css">
+
+	<link href="css" rel="stylesheet" type="text/css">
+	<link href="css(1)" rel="stylesheet" type="text/css">
+
+	<body>
+		<center>
+
+			<div class="left_bar">
+
+				<h1>Advanced Search For Employee</h1>
+
+				<table align="center" border="0" id="table2" width="100%" cellspacing="0" cellpadding="2" bgcolor="#FFFFFF">
+
+					<form type="POST" name="search" action="./result.php">
+
+						<tbody>
+							<tr>
+								<td width="150"><b>&nbsp; Gender :</b></td>
+								<td valign="top">
+								<select size="1" name="catID">
+									<option value="*">Any</option>
+									<option value="M">Male</option>
+									<option value="F">Female</option>
+
+								</select></td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Sector :</b></td>
+								<td>
+								<select name="sector">
+									<option value="*">Any Sector</option>
+									<option value="Hospitality">Hospitality</option>
+									<option value="Automotive Repair">Automotive Repair</option>
+									<option value="Security">Security</option>
+									<option value="Fabrication">Fabrication</option>
+									<option value="Banking And Accounting">Banking And Accounting</option>
+									<option value="Garment Making">Garment Making</option>
+									<option value="Retail">Retail</option>
+									<option value="Electrical">Electrical</option>
+								</select></td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Police Verification :</b></td>
+								<td>
+								<select name="pv">
+									<option value="*">Not Necessary</option>
+									<option value="Yes">Yes</option>
+									<option value="No">No</option>
+								</select></td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Marital Status :</b></td>
+								<td>
+								<select name="ms">
+									<option value="*">Not Necessary</option>
+									<option value="Married">Married</option>
+									<option value="Single">Single</option>
+								</select></td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Highest Education :</b></td>
+								<td>
+								<select name="he">
+									<option value="*">Any</option>
+									<option value="<10th Class"><10th Class</option>
+									<option value="10th Class">10th Class</option>
+									<option value="12th Class">12th Class</option>
+									<option value="Graduation">Graduation</option>
+								</select></td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Experience (min.) :</b></td>
+								<td>
+								<input type="text" name="exp" size="30" value="0" class="txt">
+								</td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Salary :</b></td>
+								<td>
+								<input type="text" name="sal1" placeholder="From..." size="30" value="" class="txt">
+								</td>
+								<td>
+								<input type="text" name="sal2" placeholder="To..." size="30" value="" class="txt">
+								</td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Mother Tongue :</b></td>
+								<td>
+								<input type="text" name="lang" size="30" placeholder="Any.." class="txt">
+								</td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Certificate Available :</b></td>
+								<td>
+								<select name="cert">
+									<option value="*">Not Necessary</option>
+									<option value="Yes">Yes</option>
+									<option value="No">No</option>
+
+								</select></td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Certifying Agency :</b></td>
+								<td>
+								<select name="ca">
+									<option value="*">Not Necessary</option>
+									<option value="NCVT">NCVT</option>
+									<option value="SSC">SSC</option>
+
+								</select></td>
+							</tr>
+
+							<tr>
+								<td><b>&nbsp; Marks Recieved (min.) :</b></td>
+								<td>
+								<input type="text" name="marks" size="30" value="0" class="txt">
+								</td>
+							</tr>
+
+							<tr>
+								<td colspan="1">
+								<br>
+								<br>
+								<input type="submit" name="search" value="SEARCH" class="buttondetail blue1" >
+								</td>
+							</tr>
+
+						</tbody>
+					</form>
+				</table>
+			</div>
+
+		</center>
+
+	</body>
+</html>
